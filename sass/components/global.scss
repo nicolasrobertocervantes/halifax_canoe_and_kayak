@@ -7,6 +7,19 @@ p {
     line-height: 18px;
 }
 
+h1 {
+    font-size: 1.5rem;
+}
+
+main {
+    padding-bottom: 7rem;
+}
+
+.logout {
+    margin-top: 1rem;
+    float: right;
+}
+
 .container-fluid {
     padding-left: 15px;
     padding-right: 15px;
@@ -151,13 +164,34 @@ footer {
     text-align: center;
     padding: 2rem 0;
     color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 
     p {
         margin: 0;
     }
 }
 
+.submit input {
+    background-color: darkorange;
+    color: #fff;
+    cursor: pointer;
+}
+
+.admin-login {
+    form {
+        div {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
 @media screen and (min-width: 800px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
     .main-header {
         .main-header-inner {
             .title {
