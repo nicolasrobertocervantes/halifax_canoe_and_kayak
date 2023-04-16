@@ -1,0 +1,44 @@
+.main-header {
+    background-color: #1448c1;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+
+    nav {
+        width: 20%;
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                list-style: none;
+            }
+        }
+    }
+    .title {
+        width: 60%;
+
+        h1 {
+            width: 80%;
+            display: inline-block;
+            text-align: center;
+        }
+    }
+    
+    a {
+        width: 20%;
+
+        img {
+            width: 80px;
+            float: right;
+        }
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
